@@ -5,7 +5,7 @@
 </p>
 
 1. Introduction :
-    For this project I have used the recommended dataset for this project which is the Ames Housing dataset, which is made of 2930 rows and 82 features for houses in Ames, Iowa, United States of America. I have 4 goals to finish this project : 1) To clean 
+    For this project I have used the recommended dataset for this project which is the Ames Housing dataset, which is made of 2930 rows and 82 features for houses in Ames, Iowa, United States of America. I have 4 goals to finish this project : 1) To clean the dataset from any outliers and any missing values. 2) Making helpful features and encoding data. 3) Exploring the data a bit deeper and getting charts. 4) Using math to find about how the mean, the std and other things 
 
 2. Cleaning Summary : 
     The raw dataset had several problems that needed fixing before analysis :
@@ -38,4 +38,27 @@
     
     I also log transformed to fix the “SalePrice” column, it was right skewed before I used log1p(). After the log1p transformation it became 90% like a bell shape
 
-    ![](image.png)
+    ![Figure 1](image.png)
+
+4. Exploratory Data Analysis Summary : 
+
+    Finding 1 — I found out that “3Ssn Porch” is the most right skewed column and that the “Year Built” column is the most left skewed column and that the “Gr Liv Area” column is symmetrical (aka : bell shape) as seen in figure 2
+
+    Finding 2 — I found out that the overall quality of the house affects the sale price of the house and how the house style affects the sale price as seen if figure 3
+
+    Finding 3 — I found out that the most correlated feature with the “Screen Porch” feature is the “Fireplaces” feature with a score of 0.17 percent; that means that there is basically nothing that is the same as the “Screen Porch” feature as seen in figure 4
+
+![Figure 2](image-2.png)
+
+![Figure 3](image-1.png)
+
+![Figure 4](image-3.png)
+
+5. What I Would Do Next :
+    If I had more time, I would: (1) train a simple prediction model for if I need to check a new house that I didn’t yet calculate (2) Investigate and research for if I have the same house but in a different neighborhood would the price change? (a possible interaction effect); and (3) look at how sale prices changed over the years in the dataset to check for time trends.
+
+  ______________________________________
+  <br><br>
+  <strong>Sources :</strong> Geeks for Geeks, Google search, reddit, ChatGPT, Google Gemini
+  <br><br>
+  <em>Note: Wherever "Google Gemini" or "ChatGPT" or any other AI is mentioned, I only got the idea from it, not the code unless stated otherwise.</em>
