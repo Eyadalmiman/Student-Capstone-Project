@@ -46,7 +46,7 @@
 
     Finding 2 — I found out that the overall quality of the house affects the sale price of the house and how the house style affects the sale price as seen if figure 3
 
-    Finding 3 — I found out that the most correlated feature with the “Screen Porch” feature is the “Fireplaces” feature with a score of 0.17 percent; that means that there is basically nothing that is the same as the “Screen Porch” feature as seen in figure 4
+    Finding 3 — I found out that the most correlated feature with the “SalePrice” feature is the “Overall Qual” feature with a score of 0.81 percent; that means that “Overall Qual” is basically the same as “SalePrice” as seen in figure 4
 
 ![Figure 2](image-2.png)
 
