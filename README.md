@@ -38,7 +38,7 @@
     
     I also log transformed to fix the “SalePrice” column, it was right skewed before I used log1p(). After the log1p transformation it became 90% like a bell shape
 
-    ![Figure 1](image.png)
+    ![Figure 1](Resources/image.png)
 
 4. Exploratory Data Analysis Summary : 
 
@@ -48,11 +48,11 @@
 
     Finding 3 — I found out that the most correlated feature with the “SalePrice” feature is the “Overall Qual” feature with a score of 0.81 percent; that means that “Overall Qual” is basically the same as “SalePrice” as seen in figure 4
 
-![Figure 2](image-2.png)
+![Figure 2](Resources/image-2.png)
 
-![Figure 3](image-1.png)
+![Figure 3](Resources/image-1.png)
 
-![Figure 4](image-3.png)
+![Figure 4](Resources/image-3.png)
 
 5. What I Would Do Next :
     If I had more time, I would: (1) train a simple prediction model for if I need to check a new house that I didn’t yet calculate (2) Investigate and research for if I have the same house but in a different neighborhood would the price change? (a possible interaction effect); and (3) look at how sale prices changed over the years in the dataset to check for time trends.
